@@ -20,8 +20,15 @@ Alexa should say. Nothing secret is stored in this repo.
 2. Name **LUMEN Voice**, language **English (UK)**, type **Other** > **Custom**, hosting
    **Alexa-hosted (Node.js)**, region **EU (Ireland)**.
 3. Template: **Import skill**, URL `https://github.com/sfxhewitt/lumen-alexa.git`, then create it.
-4. When it has built, open the **Test** tab and set testing to **Development**.
-5. On the TV open LUMEN > Settings > Alexa and say "Alexa, ask my telly to pair" and the code shown.
+   The import only works while this repo is **public** (a private repo fails with "please check the
+   provided URL").
+4. The import can replace the invocation name with a placeholder ("change me"; the console says
+   "Your skill name cannot be used as an invocation name"). Open **Build > Invocations**, set it to
+   `my telly`, **Save** and **Build skill**. Until then Alexa answers every phrase with "I'm not quite
+   sure how to help you with that".
+5. Open the **Test** tab and set testing to **Development**.
+6. On the TV open LUMEN > Settings > Alexa > Pair with Alexa and say "Alexa, ask my telly to pair" and the
+   code shown (or type `ask my telly to pair 123456` in the console's Test tab).
 
 The invocation name ("my telly") can be changed under Build > Invocations.
 
