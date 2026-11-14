@@ -7,7 +7,7 @@
  * channel. The two talk through ntfy.sh, a free public relay, on a private
  * topic made from this skill's Amazon user id, so nothing secret lives here.
  *
- * Pairing: LUMEN's Settings > Alexa shows a code. "Alexa, ask my telly to
+ * Pairing: LUMEN's Settings > Alexa shows a code. "Alexa, ask Plexodus to
  * pair 123456" sends this account's topic to the TV showing that code.
  *
  * No npm dependencies on purpose: this code is imported once into an
