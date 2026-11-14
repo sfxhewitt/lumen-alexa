@@ -1,0 +1,8 @@
+{
+  "name": "lumen-voice",
+  "version": "1.0.0",
+  "description": "Alexa skill that sends what you say to LUMEN on your TV",
+  "main": "index.js",
+  "license": "ISC",
+  "dependencies": {}
+}

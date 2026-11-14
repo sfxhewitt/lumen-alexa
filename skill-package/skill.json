@@ -1,0 +1,36 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-GB": {
+          "summary": "Play shows, films, YouTube and live channels on your TV with LUMEN.",
+          "examplePhrases": [
+            "Alexa, open my telly",
+            "Alexa, ask my telly to continue Mobland",
+            "Alexa, ask my telly to put BBC One on"
+          ],
+          "name": "LUMEN Voice",
+          "description": "Control your TV by voice with LUMEN. Shows and films play in Plexodus and pick up where you left off, \"on YouTube\" plays on YouTube, and channel names tune LUMEN. Pair your TV in LUMEN's Settings, Alexa."
+        },
+        "en-US": {
+          "summary": "Play shows, films, YouTube and live channels on your TV with LUMEN.",
+          "examplePhrases": [
+            "Alexa, open my telly",
+            "Alexa, ask my telly to continue Mobland",
+            "Alexa, ask my telly to put BBC One on"
+          ],
+          "name": "LUMEN Voice",
+          "description": "Control your TV by voice with LUMEN. Shows and films play in Plexodus and pick up where you left off, \"on YouTube\" plays on YouTube, and channel names tune LUMEN. Pair your TV in LUMEN's Settings, Alexa."
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Needs LUMEN on a Fire TV or Android TV, paired in LUMEN Settings, Alexa.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {}
+    },
+    "manifestVersion": "1.0"
+  }
+}
