@@ -1,0 +1,221 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "my telly",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "PlayIntent",
+          "slots": [
+            {
+              "name": "query",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "play {query}",
+            "watch {query}",
+            "start {query}",
+            "open {query}",
+            "put on {query}",
+            "put {query} on",
+            "stick on {query}",
+            "stick {query} on",
+            "show me {query}",
+            "find {query}",
+            "i want to watch {query}",
+            "let's watch {query}",
+            "lets watch {query}",
+            "can you play {query}",
+            "can you put on {query}",
+            "load {query}",
+            "bring up {query}",
+            "search for {query}",
+            "look for {query}",
+            "play me {query}",
+            "get {query} on",
+            "get me {query}",
+            "throw on {query}"
+          ]
+        },
+        {
+          "name": "ContinueIntent",
+          "slots": [
+            {
+              "name": "query",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "continue {query}",
+            "continue watching {query}",
+            "resume {query}",
+            "resume watching {query}",
+            "carry on {query}",
+            "carry on watching {query}",
+            "keep watching {query}",
+            "pick up {query}",
+            "pick up where i left off on {query}",
+            "play the next episode of {query}",
+            "next episode of {query}",
+            "carry on with {query}",
+            "go back to {query}"
+          ]
+        },
+        {
+          "name": "FromStartIntent",
+          "slots": [
+            {
+              "name": "query",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "play {query} from the start",
+            "play {query} from the beginning",
+            "watch {query} from the start",
+            "watch {query} from the beginning",
+            "start {query} from the beginning",
+            "start {query} from the start",
+            "start {query} again",
+            "restart {query}",
+            "put {query} on from the start",
+            "play {query} from scratch"
+          ]
+        },
+        {
+          "name": "YouTubeIntent",
+          "slots": [
+            {
+              "name": "query",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "play {query} on youtube",
+            "put {query} on youtube",
+            "put on {query} on youtube",
+            "watch {query} on youtube",
+            "find {query} on youtube",
+            "search youtube for {query}",
+            "youtube {query}",
+            "open youtube and play {query}",
+            "show {query} on youtube",
+            "show me {query} on youtube",
+            "search {query} on youtube",
+            "stick {query} on youtube",
+            "look up {query} on youtube",
+            "play {query} from youtube",
+            "find me {query} on youtube"
+          ]
+        },
+        {
+          "name": "ChannelIntent",
+          "slots": [
+            {
+              "name": "query",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "put {query} on lumen",
+            "put {query} on i. p. t. v.",
+            "play {query} on lumen",
+            "play {query} on i. p. t. v.",
+            "watch {query} on lumen",
+            "watch {query} on i. p. t. v.",
+            "put on {query} on lumen",
+            "put on {query} on i. p. t. v.",
+            "put {query} on live tv",
+            "play {query} on live tv",
+            "watch {query} live",
+            "tune to {query}",
+            "tune into {query}",
+            "switch to {query}",
+            "switch over to {query}",
+            "change to {query}",
+            "change the channel to {query}",
+            "turn over to {query}",
+            "go to channel {query}",
+            "channel {query}",
+            "put channel {query} on",
+            "put on channel {query}",
+            "stick {query} on lumen",
+            "stick {query} on i. p. t. v.",
+            "open {query} on lumen",
+            "open {query} on i. p. t. v."
+          ]
+        },
+        {
+          "name": "PlexIntent",
+          "slots": [
+            {
+              "name": "query",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "play {query} on plex",
+            "play {query} on plexodus",
+            "put {query} on plex",
+            "put {query} on plexodus",
+            "watch {query} on plex",
+            "watch {query} on plexodus",
+            "continue {query} on plex",
+            "continue {query} on plexodus",
+            "resume {query} on plex",
+            "resume {query} on plexodus",
+            "find {query} on plex",
+            "find {query} on plexodus",
+            "put on {query} on plex",
+            "put on {query} on plexodus"
+          ]
+        },
+        {
+          "name": "PairIntent",
+          "slots": [
+            {
+              "name": "code",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "pair {code}",
+            "pair with {code}",
+            "pair code {code}",
+            "pair with code {code}",
+            "pair my tv {code}",
+            "pair my tv with {code}",
+            "pair my telly with {code}",
+            "the code is {code}",
+            "code {code}",
+            "link {code}",
+            "link code {code}",
+            "connect {code}",
+            "connect to {code}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}
