@@ -6,6 +6,10 @@ Say what you want to watch and LUMEN puts it on your TV:
 - "Alexa, ask my telly to play Mobland from the start"
 - "Alexa, ask my telly to play lofi on YouTube": plays the top **YouTube** result
 - "Alexa, ask my telly to put BBC One on" or "…to put Sky Sports on IPTV": tunes a **LUMEN** channel
+- "Alexa, ask my telly to open Netflix": opens **any app** on the TV by name ("ITV Player" is ITVX, "Disney Plus" is Disney+)
+- "Alexa, ask my telly to open Mobland on Plexodus": **open** shows it without playing (the title's page in
+  Plexodus, the search in YouTube), so you press Play when you're ready
+- "Alexa, ask my telly to open I'm a Celebrity": with no app named, LUMEN opens the app that streams it in the UK
 
 ## How it works
 
@@ -31,6 +35,13 @@ Alexa should say. Nothing secret is stored in this repo.
    code shown (or type `ask my telly to pair 123456` in the console's Test tab).
 
 The invocation name ("my telly") can be changed under Build > Invocations.
+
+## Updating the phrases
+
+The imported skill is a copy, so a change to the phrases here (`skill-package/interactionModels`) has to be
+copied in: **Build > Interaction Model > JSON Editor**, paste `en-GB.json` over what's there (keep the
+invocation name `my telly`), **Save** and **Build skill**. `lambda/index.js` passes every intent straight
+to the TV, so it doesn't need touching.
 
 ## Test without Alexa
 
