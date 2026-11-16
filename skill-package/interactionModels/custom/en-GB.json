@@ -35,26 +35,45 @@
             "play {query}",
             "watch {query}",
             "start {query}",
-            "open {query}",
             "put on {query}",
             "put {query} on",
             "stick on {query}",
             "stick {query} on",
-            "show me {query}",
-            "find {query}",
             "i want to watch {query}",
             "let's watch {query}",
             "lets watch {query}",
             "can you play {query}",
             "can you put on {query}",
-            "load {query}",
-            "bring up {query}",
-            "search for {query}",
-            "look for {query}",
             "play me {query}",
             "get {query} on",
             "get me {query}",
             "throw on {query}"
+          ]
+        },
+        {
+          "name": "OpenIntent",
+          "slots": [
+            {
+              "name": "query",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "open {query}",
+            "open up {query}",
+            "launch {query}",
+            "load {query}",
+            "bring up {query}",
+            "pull up {query}",
+            "show me {query}",
+            "find {query}",
+            "find me {query}",
+            "search for {query}",
+            "look for {query}",
+            "look up {query}",
+            "go to {query}",
+            "take me to {query}",
+            "can you open {query}"
           ]
         },
         {
@@ -115,17 +134,10 @@
             "put {query} on youtube",
             "put on {query} on youtube",
             "watch {query} on youtube",
-            "find {query} on youtube",
-            "search youtube for {query}",
             "youtube {query}",
             "open youtube and play {query}",
-            "show {query} on youtube",
-            "show me {query} on youtube",
-            "search {query} on youtube",
             "stick {query} on youtube",
-            "look up {query} on youtube",
-            "play {query} from youtube",
-            "find me {query} on youtube"
+            "play {query} from youtube"
           ]
         },
         {
@@ -160,9 +172,7 @@
             "put channel {query} on",
             "put on channel {query}",
             "stick {query} on lumen",
-            "stick {query} on i. p. t. v.",
-            "open {query} on lumen",
-            "open {query} on i. p. t. v."
+            "stick {query} on i. p. t. v."
           ]
         },
         {
@@ -184,8 +194,6 @@
             "continue {query} on plexodus",
             "resume {query} on plex",
             "resume {query} on plexodus",
-            "find {query} on plex",
-            "find {query} on plexodus",
             "put on {query} on plex",
             "put on {query} on plexodus"
           ]
